@@ -16,12 +16,13 @@
       "webpack-env",
       "@dcloudio/types",
       "miniprogram-api-typings",
-      "mini-types"
+      "mini-types",
     ],
     "paths": {
       "@/*": [
         "./src/*"
-      ]
+      ],
+      "/wxcomponents/vant-weapp/*": ["./src/wxcomponents/vant-weapp/*"]
     },
     "lib": [
       "esnext",

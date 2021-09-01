@@ -1,7 +1,7 @@
 <!--
  * @Author: leviymzh
  * @Date: 2021-09-01 14:33:22
- * @LastEditTime: 2021-09-01 15:10:24
+ * @LastEditTime: 2021-09-01 17:21:31
  * @LastEditors: leviymzh
  * @Description: pages/index/index.vue
  * @FilePath: /uni-app-cli/src/pages/index/index.vue
@@ -16,6 +16,8 @@
     <view>
       <text class="text-red-600 title">{{title}}</text>
     </view>
+    <vant-button @click="showNotify">弹出提示</vant-button>
+    <vant-notify id="van-notify" />
   </view>
 </template>
 
@@ -31,6 +33,9 @@ export default Vue.extend({
   methods: {
     handelTest(val: string) {
       console.log(val)
+    },
+    showNotify() {
+      this.$notify({ type: "danger", message: "通知内容" })
     },
   },
 })
