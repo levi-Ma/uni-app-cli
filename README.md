@@ -1,7 +1,7 @@
 <!--
  * @Author: leviymzh
  * @Date: 2021-09-01 14:39:18
- * @LastEditTime: 2021-09-01 15:42:43
+ * @LastEditTime: 2021-09-01 16:23:35
  * @LastEditors: leviymzh
  * @Description:
  * @FilePath: /uni-app-cli/README.md
@@ -22,3 +22,4 @@
 - 添加 prettier `yarn add prettier -D`
 - 添加 sass `yarn add sass sass-loader@10.1.1 -D`
 - 添加 [tailwindcss](https://wyz.xyz/d/150-uni-app-tailwindcss) `yarn add tailwindcss@npm:@tailwindcss/postcss7-compat -D`
+- 添加[vant](https://juejin.cn/post/6980168387942940709)

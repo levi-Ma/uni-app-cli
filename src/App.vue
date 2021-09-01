@@ -1,7 +1,7 @@
 <!--
  * @Author: leviymzh
  * @Date: 2021-09-01 14:33:22
- * @LastEditTime: 2021-09-01 15:08:17
+ * @LastEditTime: 2021-09-01 16:21:27
  * @LastEditors: leviymzh
  * @Description: App.vue
  * @FilePath: /uni-app-cli/src/App.vue
@@ -25,4 +25,5 @@ export default Vue.extend({
 <style>
 /*每个页面公共css */
 @import url("tailwindcss/tailwind.css");
+@import "/wxcomponents/vant-weapp/common/index.wxss";
 </style>
