@@ -1,7 +1,7 @@
 <!--
  * @Author: leviymzh
  * @Date: 2021-09-01 14:33:22
- * @LastEditTime: 2021-09-01 17:21:31
+ * @LastEditTime: 2021-09-01 17:50:10
  * @LastEditors: leviymzh
  * @Description: pages/index/index.vue
  * @FilePath: /uni-app-cli/src/pages/index/index.vue
@@ -14,10 +14,10 @@
       src="../../static/logo.png"
     ></image>
     <view>
-      <text class="text-red-600 title">{{title}}</text>
+      <text class="text-red-600 title">{{ title }}</text>
     </view>
-    <vant-button @click="showNotify">弹出提示</vant-button>
-    <vant-notify id="van-notify" />
+    <van-button type="info" @click="showNotify">弹出提示</van-button>
+    <van-notify id="van-notify" />
   </view>
 </template>
 

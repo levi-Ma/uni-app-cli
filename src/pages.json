@@ -13,8 +13,8 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8",
     "usingComponents": {
-      "vant-button": "/wxcomponents/vant-weapp/button/index",
-      "vant-notify": "/wxcomponents/vant-weapp/notify/index"
+      "van-button": "/wxcomponents/vant-weapp/button/index",
+      "van-notify": "/wxcomponents/vant-weapp/notify/index"
     }
   }
 }
