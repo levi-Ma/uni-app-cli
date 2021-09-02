@@ -10718,6 +10718,11 @@ unbox-primitive@^1.0.1:
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
 
+uni-ajax@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/uni-ajax/-/uni-ajax-2.3.0.tgz#b67c4bcf4c2bee327d82c77db331a04b00ef645e"
+  integrity sha512-m59zPUUIMLfCJ5vOTiNYnl8BprBekchkmOnlhWJg1NcRAZ6zngaz/0eI22Ql8k2d+EFaNvLjljzciL4RBnBH2w==
+
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz#2619800c4c825800efdd8343af7dd9933cbe2818"

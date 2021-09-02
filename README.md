@@ -23,3 +23,4 @@
 - 添加 sass `yarn add sass sass-loader@10.1.1 -D`
 - 添加 [tailwindcss](https://wyz.xyz/d/150-uni-app-tailwindcss) `yarn add tailwindcss@npm:@tailwindcss/postcss7-compat -D`
 - 添加[vant-weapp](https://juejin.cn/post/6980168387942940709)
+- 添加[UNI AJAX](https://uniajax.ponjs.com/installation.html#npm)
